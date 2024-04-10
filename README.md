@@ -1,4 +1,4 @@
-## quantization-from-scratch
+# quantization-from-scratch
 
 Goal: (1) To provide a basic baseline for obtaining quantization parameters, enabling researchers to easily perform quantization in a PyTorch environment.
       (2) To provide a lightweight model that demonstrates reduced latency and memory size, utilizing the obtained quantization parameters.
