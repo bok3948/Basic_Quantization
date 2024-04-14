@@ -38,17 +38,17 @@ def get_args_parser():
 
     #data load
     #/mnt/d/data/image/ILSVRC/Data/CLS-LOC
-    parser.add_argument('--data-set', default='IMNET', choices=['CIFAR', 'IMNET', 'INAT', 'INAT19'])
-    parser.add_argument('--data_path', default='/mnt/d/data/image/ILSVRC/Data/CLS-LOC', type=str, help='path to data')
+    parser.add_argument('--data-set', default='CIFAR', choices=['CIFAR', 'IMNET', 'INAT', 'INAT19'])
+    parser.add_argument('--data_path', default='', type=str, help='path to data')
     parser.add_argument('--eval-crop-ratio', default=0.875, type=float, help="Crop ratio for evaluation")
     parser.add_argument('--input-size', default=224, type=int, help='images input size')
     parser.add_argument('--batch_size', default=32, type=int, help='batch size for training')
 
     #model
-    parser.add_argument('--model', default='resnet18.a1_in1k', type=str, help='model name',
+    parser.add_argument('--model', default='resnet18', type=str, help='model name',
                         choices=['resnet18.a1_in1k', 'resnet50', 'resnet18'])
     parser.add_argument('--pretrained', default='', help='get pretrained weights from checkpoint')
-    parser.add_argument("--quantized_model", default="/mnt/c/Users/tang3/OneDrive/바탕 화면/code/my_code/quantization/output_dir/resnet18.a1_in1k/resnet18.a1_in1k_quant.pth")
+    parser.add_argument("--quantized_model", default="")
   
     # quantization parameters
     parser.add_argument('--n_bits_w', default=8, type=int, help='bitwidth for weight quantization')
