@@ -20,8 +20,7 @@ Goal: This repository is dedicated to those who wish to comprehend the process o
 - ONNX Runtime: 1.17.1
 
 ____________________________________________________________________________________________
-
-##Run with PTQ + QAT
+#Run with PTQ + QAT
 <pre>
 python run.py
 </pre>
