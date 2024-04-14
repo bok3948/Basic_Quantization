@@ -34,10 +34,9 @@ def get_args_parser():
     parser.add_argument('--input-size', default=224, type=int, help='images input size')
 
     #model
-    parser.add_argument('--model', default="convnext_small", type=str, help='model name',
-                        choices=['resnet18.a1_in1k', 'cifar100_resnet20', 'mobilenetv2_x1_0', 'convnext_small', 'resnet18'])
+    parser.add_argument('--model', default="resnet18", type=str, help='model name',
+                        choices=['resnet18.a1_in1k', 'resnet18'])
     parser.add_argument('--pretrained', default='', help='get pretrained weights from checkpoint')
-    #/mnt/c/Users/kimtaeho/OneDrive/바탕 화면/code/currently_not_use/efficient_model/deit/output_dir_convnext_small/best_checkpoint.pth
     
     # quantization parameters
     parser.add_argument('--n_bits_w', default=8, type=int, help='bitwidth for weight quantization')
