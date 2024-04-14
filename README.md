@@ -19,10 +19,9 @@ Goal: This repository is dedicated to those who wish to comprehend the process o
 - ONNX: 1.16.0
 - ONNX Runtime: 1.17.1
 
-  ##Run
 ____________________________________________________________________________________________
 
-To PTQ + QAT
+##Run with PTQ + QAT
 <pre>
 python run.py
 </pre>
