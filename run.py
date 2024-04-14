@@ -18,9 +18,8 @@ def get_args_parser():
 
     #model
     parser.add_argument('--model', default='resnet18', type=str, help='model name',
-                        choices=['resnet18.a1_in1k','resnet18',  'convnext_small'])
+                        choices=['resnet18.a1_in1k','resnet18'])
     parser.add_argument('--pretrained', default='/mnt/c/Users/tang3/OneDrive/바탕 화면/code/my_code/efficient_model/deit/output_dir_resnet18/best_checkpoint.pth', help='get pretrained weights from checkpoint')
-    #'/mnt/c/Users/tang3/OneDrive/바탕 화면/code/currently_not_use/my_code_old/deit/output_dir_convnext_small/best_checkpoint.pth'
     
     # quantization parameters
     parser.add_argument('--n_bits_w', default=8, type=int, help='bitwidth for weight quantization')
