@@ -5,11 +5,12 @@ This repository offers a PyTorch reimplementation of the quantization approach o
 
 Goal: This repository is dedicated to those who wish to comprehend the process of quantization within the PyTorch framework. It offers a straightforward and accessible implementation, as well as practical demonstrations of model size reduction with ONNX inference. 
 
-#Default Quantization Setting
-Activation: int8
-Weight: int8
-reduced range(-127 ~ 127)
-symmatric quantization (zero point = 0)
+# Default Quantization Setting
+- **Activation**: `int8`
+- **Weight**: `int8`
+- **Range**: Reduced range from -127 to 127
+- **Quantization**: Symmetric quantization with zero point set to 0
+
 
 ## Requirements
 - PyTorch: 2.2.1
