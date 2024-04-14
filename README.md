@@ -22,7 +22,7 @@ Goal: This repository is dedicated to those who wish to comprehend the process o
 ____________________________________________________________________________________________
 ## Run with PTQ + QAT
 <pre>
-python run.py
+python run.py --data-path "your data path" --pretrained "trained model pth file path"
 </pre>
 Modle trained with CIFAR100 and calibrate with CIFAR100.
 | Model Name           | Accuracy (%) | Size (MB) | Latency (ms) | Checkpoint |
