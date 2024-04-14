@@ -24,7 +24,7 @@ ________________________________________________________________________________
 <pre>
 python run.py
 </pre>
-Modle pretrained with CIFAR100 and calibrate with CIFAR100.
+Modle trained with CIFAR100 and calibrate with CIFAR100.
 | Model Name           | Accuracy (%) | Size (MB) | Latency (ms) | Checkpoint |
 |----------------------|--------------|-----------|--------------|------------|
 | pytorch_resnet18_fp  | 73.66        | 44.98     | 16.3784      |[Download](https://drive.google.com/file/d/1DXdomOlWoPvT2DKW6_r9tq9v2rH8y_00/view?usp=sharing) |
