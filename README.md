@@ -5,7 +5,7 @@ This repository offers a PyTorch reimplementation of the quantization approach o
 
 Goal: This repository is dedicated to those who wish to comprehend the process of quantization within the PyTorch framework. It offers a straightforward and accessible implementation, as well as practical demonstrations of model size reduction and speed up with ONNX inference. 
 
-# Default Quantization Setting
+## Default Quantization Setting
 - **Activation**: `int8`
 - **Weight**: `int8`
 - **Range**: Reduced range from -127 to 127
