@@ -3,7 +3,7 @@ This repository offers a PyTorch reimplementation of the quantization approach o
 
 ![Example Image](/images/quantization_flow.drawio.png "Quantization Flow")
 
-Goal: This repository is dedicated to those who wish to comprehend the process of quantization within the PyTorch framework. It offers a straightforward and accessible implementation, as well as practical demonstrations of model size reduction with ONNX inference. 
+Goal: This repository is dedicated to those who wish to comprehend the process of quantization within the PyTorch framework. It offers a straightforward and accessible implementation, as well as practical demonstrations of model size reduction and speed up with ONNX inference. 
 
 # Default Quantization Setting
 - **Activation**: `int8`
@@ -25,10 +25,10 @@ ________________________________________________________________________________
 python run.py
 </pre>
 
-| Model Name           | Accuracy (%) | Size (MB) | Latency (ms) |
-|----------------------|--------------|-----------|--------------|
-| pytorch_resnet18_fp  | 73.66        | 44.98     | 16.3784      |
-| onnx_resnet18_quant  | 73.52        | 11.35     | 10.2182      |
+| Model Name           | Accuracy (%) | Size (MB) | Latency (ms) | Checkpoint |
+|----------------------|--------------|-----------|--------------|------------|
+| pytorch_resnet18_fp  | 73.66        | 44.98     | 16.3784      |[Download](https://drive.google.com/file/d/1DXdomOlWoPvT2DKW6_r9tq9v2rH8y_00/view?usp=sharing) |
+| onnx_resnet18_quant  | 73.52        | 11.35     | 10.2182      |[Download](https://drive.google.com/file/d/1B_cR5QlXdnpzGfaQcAGtFjV0d3kLctcJ/view?usp=sharing) |
 
 
 
