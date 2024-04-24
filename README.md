@@ -9,7 +9,7 @@ Goal: This repository is dedicated to those who wish to comprehend the process o
 - **Activation**: `int8`
 - **Weight**: `int8`
 - **Range**: Reduced range from -127 to 127
-- **Quantization**: Symmetric quantization with zero point set to 0
+- **Quantization**: Symmetric quantization to both activations and weights
 
 
 ## Requirements
